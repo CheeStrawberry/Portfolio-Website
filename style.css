@@ -1,4 +1,4 @@
-/*fonts*/
+/* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @font-face {
@@ -16,7 +16,31 @@ html {
   scroll-behavior: smooth;
 }
 
-/* desktop nav*/
+p{
+  color: rgb(85,85,85);
+  font-size: larger;
+}
+
+/* links */
+a,
+.btn{
+  transition: all 300ms ease;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  text-decoration-color: #fff;
+}
+
+a:hover{
+  color: gray;
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+  text-decoration-color: rgb(181,181,181);
+}
+
+/* desktop nav */
 nav,
 .nav-links {
   display: flex;
@@ -42,7 +66,6 @@ nav {
 .logo:hover {
   cursor: pointer;
   transform: scale(1.1);
-  /*text-shadow: 0 0 3px rgb(88, 88, 88);*/
 }
 
 /* Hamburger */
@@ -217,7 +240,7 @@ ion-icon {
 
 .icon {
   cursor: pointer;
-  height: 3rem;
+  height: 2rem;
 }
 
 /* Buttons */
@@ -362,7 +385,7 @@ article{
   gap:0.5rem;
 }
 
-article .icom{
+article .icon{
   cursor: default;
 }
 
