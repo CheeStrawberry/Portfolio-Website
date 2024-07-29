@@ -402,7 +402,7 @@ article .icon {
 .project-img {
   border-radius: 2rem;
   width: 290px;
-  height: 390px;
+  /*height: 390px;*/
   background-position: center;
 }
 
