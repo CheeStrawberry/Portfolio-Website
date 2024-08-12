@@ -26,11 +26,11 @@ An interactive portfolio website showcasing my work as a designer and developer.
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/YourUsername/YourPortfolioRepo.git
+    git clone https://github.com/CheeStrawberry/Portfolio-Website.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd YourPortfolioRepo
+    cd Portfolio-Website
     ```
 3. Open the `index.html` file in your preferred web browser.
 
